@@ -16,3 +16,13 @@ main {
   background-color: hsl(257, 40%, 49%);
   background-size: contain;
 }
+
+.main-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-header img {
+  margin: 3rem 0 0 2rem;
+  width: 12rem;
+}
