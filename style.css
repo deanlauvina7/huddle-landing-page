@@ -11,13 +11,14 @@ body {
 }
 
 main {
-  height: 100vh;
+  height: 110vh;
   background-image: url(/images/bg-desktop.svg);
   background-color: hsl(257, 40%, 49%);
   background-size: contain;
 }
 
-.main-header {
+.main-header,
+.content-container {
   display: flex;
   flex-direction: row;
 }
@@ -25,4 +26,53 @@ main {
 .main-header img {
   margin: 3rem 0 0 2rem;
   width: 12rem;
+}
+
+.content-container {
+  justify-content: center;
+  align-content: center;
+}
+
+/* REGISTER SECTION */
+.register-container {
+  order: 1;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.register-container h1 {
+  font-size: 35px;
+}
+
+.register-container p {
+  margin-top: -5rem;
+  font-family: "Open Sans";
+  font-weight: 0;
+}
+
+.register-container button {
+  margin-top: -5rem;
+  width: 200px;
+  height: 35px;
+  background-color: white;
+  font-family: "Poppins";
+  font-size: 1rem;
+  color: hsl(257, 40%, 49%);
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+
+/* SCREEN SECTION */
+.screen-container {
+  margin: 3rem 2rem 0 0;
+
+}
+
+.screen-container img {
+  height: 30rem;
 }
