@@ -70,9 +70,42 @@ main {
 /* SCREEN SECTION */
 .screen-container {
   margin: 3rem 2rem 0 0;
-
 }
 
 .screen-container img {
   height: 30rem;
+}
+
+/* MEDIA QUERIES  */
+@media screen and (max-width: 375px) {
+  main {
+    height: 110vh;
+    background-image: url(/images/bg-mobile.svg);
+  }
+
+  .main-header,
+  .content-container {
+    flex-direction: column;
+  }
+
+  .main-header img {
+    margin: 3rem 0 0 2rem;
+    width: 7rem;
+  }
+
+  .screen-container img {
+    height: 15rem;
+  }
+
+  .screen-container {
+    margin: 3rem 1rem 0 1rem;
+  }
+
+  .register-container {
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+  }
+
+
 }
