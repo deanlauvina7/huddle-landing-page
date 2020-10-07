@@ -11,7 +11,7 @@ body {
 }
 
 main {
-  height: 110vh;
+  height: 100vh;
   background-image: url(/images/bg-desktop.svg);
   background-color: hsl(257, 40%, 49%);
   background-size: contain;
@@ -76,28 +76,22 @@ main {
   height: 30rem;
 }
 
-.social-icons {
-  width: 25%;
-  height: 5rem;
-  font-size: 15px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  list-style: none;
+.icon-container {
+  background-color: salmon;
   position: absolute;
   right: 0;
-  color: white;
+  bottom: 20px;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.media-icon {
-  height: 2rem;
-  width: 2rem;
-  margin-top: 1rem;
-  color: white;
-  border: 1px solid white;
-  border-radius: 50%;
-  padding: 8px 0 0 8px;
+.icon-container li {
+  list-style: none;
 }
+
 
 /* MEDIA QUERIES  */
 @media screen and (max-width: 375px) {
