@@ -76,6 +76,29 @@ main {
   height: 30rem;
 }
 
+.social-icons {
+  width: 25%;
+  height: 5rem;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  position: absolute;
+  right: 0;
+  color: white;
+}
+
+.media-icon {
+  height: 2rem;
+  width: 2rem;
+  margin-top: 1rem;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 8px 0 0 8px;
+}
+
 /* MEDIA QUERIES  */
 @media screen and (max-width: 375px) {
   main {
@@ -106,6 +129,4 @@ main {
     justify-content: space-evenly;
     color: white;
   }
-
-
 }
