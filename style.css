@@ -77,19 +77,33 @@ main {
 }
 
 .icon-container {
-  background-color: salmon;
   position: absolute;
   right: 0;
   bottom: 20px;
   width: 25%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  justify-content: space-evenly;
 }
 
 .icon-container li {
   list-style: none;
+  height: 35px;
+  width: 35px;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.icon-container .social {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  border: 1px solid white;
+  border-radius: 50%;
+  color: white;
 }
 
 
